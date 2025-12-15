@@ -38,7 +38,7 @@
   
 }
 .text-muted1{
-  font-size: 18px;
+  font-size: 17px;
   color: rgb(23, 23, 23);
 }
 
@@ -339,4 +339,153 @@
 .faq-section h6 {
   font-weight: 600;
   margin-bottom: 8px;
+}
+
+
+.info-section {
+  background: #fff;
+}
+
+.info-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.info-title span {
+  font-weight: 400;
+}
+
+.info-section p {
+  font-size: 14px;
+  color: #4a5568;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+
+
+/* Top Section */
+.top-info {
+  padding: 40px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.logo-text {
+  font-size: 42px;
+  font-weight: bold;
+  color: #000;
+}
+
+.logo-text span {
+  color: #f5b400;
+}
+
+.top-desc {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Features Section */
+.features-section {
+  padding: 80px 0;
+}
+
+.small-title {
+  color: #1e90ff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 15px 0 30px;
+}
+
+/* Feature List */
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-list li {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: start;
+}
+
+.feature-list i {
+  color: #1e90ff;
+  border: 1px solid #1e90ff;
+  border-radius: 50%;
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+/* Mobile Mockup */
+.mobile-box {
+  width: 260px;
+  height: 420px;
+  border-radius: 30px;
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.mobile-box img{
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  color: #ccc;
+}
+
+/* Parent */
+.dropdown-hover {
+  position: relative;
+}
+
+/* Dropdown menu */
+.dropdown-menu-custom {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  min-width: 200px;
+  padding: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  display: none;
+  z-index: 999;
+}
+
+/* Links */
+.dropdown-menu-custom li a {
+  display: block;
+  padding: 8px 16px;
+  color: #212529;
+  text-decoration: none;
+  font-size: 14px;
+}
+.dropdown-menu-custom li  {
+ list-style: none;
+}
+
+
+.dropdown-menu-custom li a:hover {
+  background: #f8f9fa;
+}
+
+/* HOVER ACTION */
+.dropdown-hover:hover .dropdown-menu-custom {
+  display: block;
 }
