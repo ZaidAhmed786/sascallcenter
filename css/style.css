@@ -1,0 +1,342 @@
+.hero-img {
+  border-radius: 20px;
+}
+
+.navbar a {
+  font-size: 15px;
+}
+
+.hero-section h1 {
+  line-height: 1.2;
+}
+
+.btn-primary {
+  background-color: #389ddc;
+  border: none;
+}
+.text-primary1{
+  color: #389ddc;
+}
+
+.btn-outline-primary {
+  border: 2px solid #389ddc;
+}
+.btn-outline-primary:hover {
+  border: 2px solid #389ddc;
+  background-color: #389ddc;
+}
+.man a{
+  color: gray;
+  text-decoration: none;
+  font-size: 15px;
+  
+}
+.man {
+  color: gray;
+  text-decoration: none;
+  font-size: 15px;
+  
+}
+.text-muted1{
+  font-size: 18px;
+  color: rgb(23, 23, 23);
+}
+
+.social-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 28px;
+  color: #fff;
+}
+
+.facebook {
+  background: #3b5998;
+}
+
+.twitter {
+  background: #1da1f2;
+}
+
+
+.feature-card {
+  background: #ffffff;
+  border: 1px solid #e3e8ef;
+  border-radius: 12px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+}
+
+.feature-icon {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+
+/* Top Section */
+.company-section .main-title {
+    font-size: 38px;
+    font-weight: 300;
+}
+
+.company-section .highlight {
+    font-weight: 700;
+}
+
+.gray-logo {
+    opacity: 0.55;
+    transition: 0.3s;
+}
+
+.gray-logo:hover {
+    opacity: 1;
+}
+
+/* Footer Section */
+.footer-section {
+    background: #ffffff;
+}
+
+.icon-yellow {
+    color: #f4c542;
+    font-size: 20px;
+}
+
+.small-text {
+    font-size: 14px;
+    color: #555;
+}
+
+.email-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+
+.small-title {
+  font-size: 13px;
+  color: #389ddc;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.form-control {
+  padding: 12px;
+  font-size: 14px;
+}
+
+.captcha-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  width: 220px;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background: #389ddc;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 6px;
+}
+
+.link-title {
+  font-weight: bold;
+  color: #389ddc;
+  text-decoration: none;
+}
+
+.link-title:hover {
+  text-decoration: underline;
+}
+
+
+.industry-box {
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  background: #fff;
+  transition: .3s;
+}
+
+.industry-box:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,0.07);
+  transform: translateY(-4px);
+}
+
+.industry-icon {
+  width: 45px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.industry-text {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+.trial-section .btn-primary {
+  background: #389ddc;
+  border: none;
+}
+
+.trial-section .btn-outline-primary {
+  border: 1px solid #389ddc;
+  color: #389ddc;
+}
+
+.image-card {
+  border-radius: 15px;
+}
+
+.main-img {
+  border-radius: 15px;
+  width: 100%;
+  height: auto;
+}
+
+
+.pricing-section {
+  background: #fff;
+}
+
+.price-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 30px 15px;
+  height: 100%;
+  transition: 0.3s;
+  position: relative;
+}
+
+.price-card:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.plan-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 15px;
+  border: 1px solid #e2e8f0;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+
+.price-card h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1a202c;
+  margin: 10px 0;
+}
+
+.price-card h2 span {
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.per-month {
+  font-size: 12px;
+  color: #718096;
+  letter-spacing: 1px;
+}
+
+.rate {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a202c;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 10px;
+}
+
+/* Popular Card */
+.popular .dot {
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.service-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 20px;
+}
+
+.call-box {
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 25px 10px;
+  width: 220px;
+}
+
+.call-box h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.call-box p {
+  font-size: 11px;
+  color: #718096;
+  letter-spacing: 1px;
+}
+
+.call-box small {
+  display: block;
+  font-size: 10px;
+  color: #718096;
+  margin-bottom: 5px;
+}
+
+.dollar {
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.service-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.service-list li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #2d3748;
+}
+
+.service-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #3182ce;
+  font-weight: bold;
+}
+
+.faq-section h6 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
